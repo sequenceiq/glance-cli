@@ -1,7 +1,9 @@
-OpenStack glance client in a container. 
+OpenStack glance client in a container.
 
 ## Usage
 
+To authenticate the client, set the various `OS_XXX` env variables,
+than pass them to the Docker container by:
 
 ```
 docker run -it \
