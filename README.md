@@ -14,7 +14,7 @@ docker run -it \
     -e OS_PASSWORD=$OS_PASSWORD \
     -e OS_TENANT_NAME=$OS_TENANT_NAME \
     -e OS_USERNAME=$OS_USERNAME \
-    sequenceiq/glance:0.19.0 <command>
+    sequenceiq/glance-cli:0.19.0 <command>
 ```
 
 
